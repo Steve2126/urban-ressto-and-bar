@@ -1,0 +1,39 @@
+body{
+   background-color: black;
+    width: 100%;
+   height: 60vh;
+}
+.Section_top{
+    width: 100%;
+    height: 145%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(pizza2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1590px 900px;
+    animation: change 8s infinite linear;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(pizza2.jpg);
+    }
+    20%
+    {
+        background-image: url(pizza5.jpg);
+    }
+    40%
+    {
+        background-image: url(pizza6.jpg);
+    }
+    80%
+    {
+        background-image: url(pizza7.jpg);
+    }
+    100%
+    {
+        background-image: url(pizza5.jpg);
+    }
+}
